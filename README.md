@@ -12,13 +12,10 @@
 
 ---
 
-## 🎬 Video Tutorial & Interactive Walkthrough
+## 📸 Project Preview
 
 <div align="center">
-  <a href="https://www.youtube.com/results?search_query=itzxsahil+insta+booster">
-    <img src="assets/tutorial-showcase.svg" width="100%" alt="Video Tutorial Showcase" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);" />
-  </a>
-  <p><em>▶️ <strong>Interactive Project Tutorial</strong> — Click the player above to watch full setup guide &amp; demonstration!</em></p>
+  <img src="assets/project-banner.svg" width="100%" alt="Project Preview" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.5);" />
 </div>
 
 ---
@@ -29,15 +26,15 @@ A lightweight, fast command-line utility designed to dispatch automated views to
 
 ---
 
-## 🏗️ System Architecture & Data Flow
+# 🏗️ System Architecture & Data Flow
 
 <div align="center">
-  <img src="assets/architecture.svg" width="100%" alt="Architecture Diagram" style="border-radius: 12px;" />
+  <img src="assets/architecture.svg" width="100%" alt="Architecture Diagram" style="border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.4);" />
 </div>
 
 <br>
 
-The CLI tool parses your target reel link, authenticates session tokens, and dispatches viewing requests with automated backoff logic.
+The CLI parses the target reel URL, authenticates rotating session tokens, and executes multi-threaded viewing requests with automated exponential backoff.
 
 ---
 
@@ -50,7 +47,7 @@ The CLI tool parses your target reel link, authenticates session tokens, and dis
 # 📦 Installation & Quickstart
 
 ```bash
-git clone https://github.com/{USER}/insta-booster.git
+git clone https://github.com/itzxsahil/insta-booster.git
 cd insta-booster
 pip install -r requirements.txt
 python main.py
